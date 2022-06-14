@@ -10,10 +10,12 @@
     <meta property="fb:app_id" />
     <title>상세보기</title>
 
-  <link rel='stylesheet' type='text/css' href='/static/assets/css/show/reset.css' />
-  <link rel='stylesheet' type='text/css' href='/static/assets/css/show/common.css' /> 
-  <link rel='stylesheet' type='text/css' href='/static/assets/css/show/show.css' />   
-  <link rel='stylesheet' type='text/css' href='/static/assets/css/show/show_view.css' />   
+    <link rel='stylesheet' type='text/css' href='/static/assets/css/concertPlan/concertPlan_reset.css' />
+    <link rel='stylesheet' type='text/css' href='/static/assets/css/concertPlan/concertPlan_common.css' /> 
+    <link rel='stylesheet' type='text/css' href='/static/assets/css/concertPlan/concertPlanList.css' />
+  <link rel='stylesheet' type='text/css' href='/static/assets/css/concertPlan/concertPlanInfo.css' />
+
+  <!-- <link rel='stylesheet' type='text/css' href='1.css' />   -->
 
   <!-- Google Tag Manager -->
   <script>
@@ -43,7 +45,7 @@
 <div class="rnew-top-wrap">
    <div class="rnew-top">
       <div class="rntop-img">
-            <img src='/static/images/show/img3.jpg' />
+            <img src='/static/images/concertPlan/img3.jpg' />
       </div>
    </div>
 </div>
@@ -56,8 +58,10 @@
       <div class="rn-02">
          <p class="rn-big-title">버스커1 버스킹</p>
          <div class="rn-product-short-data">
-            <p><span class="ps-date">2022.08.06</span><a href="#" id="ps-location"><span class="ps-location">[홍대] 홍대 걷고싶은 거리</span></a></p>
-            <a href="javascript:void(0);" class="ps-social"></a>            
+            <p><span class="ps-date">2022.08.06</span><a href="#" id="ps-location"><span class="ps-location">[홍대] 홍대 걷고싶은 거리</span></a>
+            </p>
+            <a href="/templates/concertPlan/concertPlanRegister.html" class="ps-social"><img src="/static/images/concertPlan/c.png" style="float: right; width:35px;" ></a>
+            
          </div>         
       </div>
    </div>   
@@ -87,19 +91,17 @@
          
          <div class="rn-03-left">
             <div class="rn-product-imgbox">
-               <img src='/static/images/show/img3.jpg' />
+               <img src='/static/images/concertPlan/img3.jpg' />
             </div>
             <div class="rn-product-maps" id="divPerfRelation" style="display:none;"></div>
             <div class="rn-product-social">
                <a href="javascript:;" class="rn-product-good">
-                  <img src="/static/images/show/hart1.png" alt="" />
-                        <img src="/static/images/show/hart2.png" alt="" />
+                  <img src="/static/images/concertPlan/hart1.png" alt="" />
+                        <img src="/static/images/concertPlan/hart2.png" alt="" />
                         <span class="rn-pdg-txt2"></span><span class="rn-pdg-txt1">Likes</span>
                </a>      
             </div>
-                <div class = "btn" >
-                    <button type="button" onclick="location.href='/templates/show/show_correction.html'">수정</button>
-                </div>            
+               
          </div>
 
          <div class="rn-03-right">
